@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Earth Point Excel To KML</name>
+	<open>1</open>
+	<Snippet maxLines="1">SnoCotoKML.xlsx</Snippet>
+	<description><![CDATA[Source: SnoCotoKML.xlsx<br/>DateTime: 2013-07-10 17:46:15 UTC<br/><br/>&copy;2013 Earth Point<br/><a target='_blank' href='http://www.earthpoint.us'>www.earthpoint.us</a><br/><br/>For illustration only.&nbsp; User to verify all information.]]></description>
+	<Style>
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<textColor>ff000000</textColor>
+			<displayMode>default</displayMode>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="Sheet1Map1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#NormalSheet1Map1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#HighlightSheet1Map1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="HighlightSheet1Map1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.harmseninc.com/Userfiles/KML/RefPts.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>70ff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="NormalSheet1Map1">
+		<IconStyle>
+			<Icon>
+				<href>http://www.harmseninc.com/Userfiles/KML/RefPts.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Sheet1</name>
+		<Placemark>
+			<name>HAI-JANE</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>HAI-JANE</b><br><b>Coordinates: </b>47.87532444, -122.0564739<br><b>Northing: </b>321676.5471<br><b>Easting: </b>1340257.5471<br><b>Description: </b>GPS Monument at Doug's House]]></description>
+			<LookAt>
+				<longitude>-122.0564739</longitude>
+				<latitude>47.87532444</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.0564739,47.87532443999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAI-CHICO</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>HAI-CHICO</b><br><b>Coordinates: </b>47.87569055, -121.8159869<br><b>Northing: </b>320964.3533<br><b>Easting: </b>1399271.2514<br><b>Description: </b>GPS Monument on 135th St SE in Sultan]]></description>
+			<LookAt>
+				<longitude>-121.8159869</longitude>
+				<latitude>47.87569055</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-121.8159869,47.87569055,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAI-OFFICE</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>HAI-OFFICE</b><br><b>Coordinates: </b>47.84977889, -121.9939908<br><b>Northing: </b>312121.8933<br><b>Easting: </b>1355449.1914<br><b>Description: </b>GPS Monument at old office]]></description>
+			<LookAt>
+				<longitude>-121.9939908</longitude>
+				<latitude>47.84977889</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-121.9939908,47.84977889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAI-JIM</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>HAI-JIM</b><br><b>Coordinates: </b>47.89233055, -121.9857539<br><b>Northing: </b>327611.343<br><b>Easting: </b>1357703.811<br><b>Description: </b>GPS Monument at Jim McDaniel's House]]></description>
+			<LookAt>
+				<longitude>-121.9857539</longitude>
+				<latitude>47.89233055</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-121.9857539,47.89233054999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MONROE-2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>MONROE-2</b><br><b>Coordinates: </b>47.86241917, -122.00945785<br><b>Northing: </b>317031.0585<br><b>Easting: </b>1351726.2287<br><b>Description: </b>Monument at Pump House near skate park on Fryelands Blvd]]></description>
+			<LookAt>
+				<longitude>-122.0094579</longitude>
+				<latitude>47.86241917</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.0094579,47.86241917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAI-RINK</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>HAI-RINK</b><br><b>Coordinates: </b>47.9643275, -122.0846453<br><b>Northing: </b>354249.3441<br><b>Easting: </b>1333872.7794<br><b>Description: </b>GPS Monument at Rink's House]]></description>
+			<LookAt>
+				<longitude>-122.0846453</longitude>
+				<latitude>47.9643275</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.0846453,47.9643275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GP31009-18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<b>GP31009-18</b><br><b>Coordinates: </b>47.95215333, -122.1015117<br><b>Northing: </b>349876.751<br><b>Easting: </b>1329668.076<br><b>Description: </b>WSDOT GPS Mon on SR-9 Bridge over SR-2]]></description>
+			<LookAt>
+				<longitude>-122.1015117</longitude>
+				<latitude>47.95215333</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#Sheet1Map1</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.1015117,47.95215333,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
