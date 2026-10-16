@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Placemark",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{"type":"Feature","properties":{"id":null,"Name":"Untitled Placemark","description":null,"timestamp":null,"begin":null,"end":null,"altitudeMode":null,"tessellate":-1,"extrude":0,"visibility":-1,"drawOrder":null,"icon":null},"geometry":{"type":"Point","coordinates":[-121.102475589226202,47.470037069896748,0.0]}}
+]
+}
